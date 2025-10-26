@@ -1,4 +1,5 @@
-# Library AI - Simple Ollama Integration
+# Library-AI
+Duke Kunshan University Library AI - Simple Ollama Integration
 
 A simple frontend-backend system for LLM chat using Ollama.
 
