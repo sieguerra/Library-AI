@@ -1,0 +1,14 @@
+{
+  "name": "library-ai",
+  "version": "1.0.0",
+  "description": "Simple LLM app with Ollama",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && python3 -m http.server 3002",
+    "dev:backend": "cd backend && python app.py",
+    "install:all": "npm install && cd backend && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
